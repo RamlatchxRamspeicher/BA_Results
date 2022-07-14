@@ -1,0 +1,40 @@
+{
+    "framework": "AutoGluon_bestquality_save",
+    "framework_params": {
+        "presets": "best_quality",
+        "_save_artifacts": [
+            "leaderboard",
+            "models",
+            "info"
+        ]
+    },
+    "framework_version": "0.5.0",
+    "type": "classification",
+    "name": "iris",
+    "fold": 1,
+    "metric": "logloss",
+    "metrics": [
+        "logloss",
+        "acc",
+        "balacc",
+        "f1",
+        "f2",
+        "f05",
+        "max_pce",
+        "mean_pce",
+        "auc_ovo",
+        "auc_ovr"
+    ],
+    "seed": 818206248,
+    "job_timeout_seconds": 10800,
+    "max_runtime_seconds": 7200,
+    "cores": 2,
+    "max_mem_size_mb": 16384,
+    "min_vol_size_mb": -1,
+    "input_dir": "/root/.cache/openml",
+    "output_dir": "/plx-context/artifacts/results/autogluon_bestquality_save.finale.2h_2f_2c_16gb.local.20220628T180525",
+    "output_predictions_file": "/plx-context/artifacts/results/autogluon_bestquality_save.finale.2h_2f_2c_16gb.local.20220628T180525/predictions/iris/1/predictions.csv",
+    "ext": {},
+    "type_": "multiclass",
+    "output_metadata_file": "/plx-context/artifacts/results/autogluon_bestquality_save.finale.2h_2f_2c_16gb.local.20220628T180525/predictions/iris/1/metadata.json"
+}
