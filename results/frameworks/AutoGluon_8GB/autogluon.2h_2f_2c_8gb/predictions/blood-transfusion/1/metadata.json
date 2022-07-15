@@ -1,0 +1,39 @@
+{
+    "framework": "AutoGluon_save",
+    "framework_params": {
+        "_save_artifacts": [
+            "leaderboard",
+            "models",
+            "info"
+        ]
+    },
+    "framework_version": "0.5.0",
+    "type": "classification",
+    "name": "blood-transfusion",
+    "fold": 1,
+    "metric": "auc",
+    "metrics": [
+        "auc",
+        "logloss",
+        "acc",
+        "balacc",
+        "pr_auc",
+        "f1",
+        "f2",
+        "f05",
+        "max_pce",
+        "mean_pce"
+    ],
+    "seed": 1881467362,
+    "job_timeout_seconds": 10800,
+    "max_runtime_seconds": 7200,
+    "cores": 2,
+    "max_mem_size_mb": 8192,
+    "min_vol_size_mb": -1,
+    "input_dir": "/root/.cache/openml",
+    "output_dir": "/plx-context/artifacts/results/autogluon_save.finale.2h_2f_2c_8gb.local.20220629T073401",
+    "output_predictions_file": "/plx-context/artifacts/results/autogluon_save.finale.2h_2f_2c_8gb.local.20220629T073401/predictions/blood-transfusion/1/predictions.csv",
+    "ext": {},
+    "type_": "binary",
+    "output_metadata_file": "/plx-context/artifacts/results/autogluon_save.finale.2h_2f_2c_8gb.local.20220629T073401/predictions/blood-transfusion/1/metadata.json"
+}
